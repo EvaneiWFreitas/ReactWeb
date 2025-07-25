@@ -7,10 +7,11 @@ function App() {
   return (
     <>
     <Header />
-    <Banner />
-    <Container />
-    <h1>Alô mundo!</h1>
-    <p>Olá mundo! Estou aprendendo REACT JS</p>
+    <Banner image="home" />
+    <Container>
+      <h1>Alô mundo!</h1>
+      <p>Olá mundo! Estou aprendendo REACT JS</p>
+    </Container>
     <Footer />
     </>
   );
